@@ -116,7 +116,20 @@ p{
 }
 .download{
   margin-top: 30px;
-}
+    background-color: #000; /* default color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    }
+    
+    .download:hover {
+    background-color: #FF5733; /* hover color */
+    cursor: pointer;
+    }
+    
+    
+
 .contactMe{
   padding-left: 50px;
   padding-right: 50px;
